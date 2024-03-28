@@ -1,4 +1,4 @@
-﻿namespace OXGame 
+﻿namespace OXGame
 {
     partial class Form1
     {
@@ -28,135 +28,156 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.SuspendLayout();
+            button1 = new Button();
+            button2 = new Button();
+            button3 = new Button();
+            button4 = new Button();
+            button5 = new Button();
+            button6 = new Button();
+            button7 = new Button();
+            button8 = new Button();
+            button9 = new Button();
+            label1 = new Label();
+            label2 = new Label();
+            SuspendLayout();
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(34, 30);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(124, 120);
-            this.button1.TabIndex = 1;
-            this.button1.UseVisualStyleBackColor = true;
+            button1.Location = new Point(26, 24);
+            button1.Margin = new Padding(2);
+            button1.Name = "button1";
+            button1.RightToLeft = RightToLeft.Yes;
+            button1.Size = new Size(96, 95);
+            button1.TabIndex = 1;
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(166, 30);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(124, 120);
-            this.button2.TabIndex = 2;
-            this.button2.UseVisualStyleBackColor = true;
+            button2.Location = new Point(129, 24);
+            button2.Margin = new Padding(2);
+            button2.Name = "button2";
+            button2.Size = new Size(96, 95);
+            button2.TabIndex = 2;
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button1_Click;
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(296, 29);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(124, 120);
-            this.button3.TabIndex = 3;
-            this.button3.UseVisualStyleBackColor = true;
+            button3.Location = new Point(230, 23);
+            button3.Margin = new Padding(2);
+            button3.Name = "button3";
+            button3.Size = new Size(96, 95);
+            button3.TabIndex = 3;
+            button3.UseVisualStyleBackColor = true;
+            button3.Click += button1_Click;
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(34, 156);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(124, 120);
-            this.button4.TabIndex = 4;
-            this.button4.UseVisualStyleBackColor = true;
+            button4.Location = new Point(26, 123);
+            button4.Margin = new Padding(2);
+            button4.Name = "button4";
+            button4.Size = new Size(96, 95);
+            button4.TabIndex = 4;
+            button4.UseVisualStyleBackColor = true;
+            button4.Click += button1_Click;
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(166, 156);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(124, 120);
-            this.button5.TabIndex = 5;
-            this.button5.UseVisualStyleBackColor = true;
+            button5.Location = new Point(129, 123);
+            button5.Margin = new Padding(2);
+            button5.Name = "button5";
+            button5.Size = new Size(96, 95);
+            button5.TabIndex = 5;
+            button5.UseVisualStyleBackColor = true;
+            button5.Click += button1_Click;
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(294, 155);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(124, 120);
-            this.button6.TabIndex = 6;
-            this.button6.UseVisualStyleBackColor = true;
+            button6.Location = new Point(229, 122);
+            button6.Margin = new Padding(2);
+            button6.Name = "button6";
+            button6.Size = new Size(96, 95);
+            button6.TabIndex = 6;
+            button6.UseVisualStyleBackColor = true;
+            button6.Click += button1_Click;
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(34, 282);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(124, 120);
-            this.button7.TabIndex = 7;
-            this.button7.UseVisualStyleBackColor = true;
+            button7.Location = new Point(26, 223);
+            button7.Margin = new Padding(2);
+            button7.Name = "button7";
+            button7.Size = new Size(96, 95);
+            button7.TabIndex = 7;
+            button7.UseVisualStyleBackColor = true;
+            button7.Click += button1_Click;
             // 
             // button8
             // 
-            this.button8.Location = new System.Drawing.Point(166, 282);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(124, 120);
-            this.button8.TabIndex = 8;
-            this.button8.UseVisualStyleBackColor = true;
+            button8.Location = new Point(129, 223);
+            button8.Margin = new Padding(2);
+            button8.Name = "button8";
+            button8.Size = new Size(96, 95);
+            button8.TabIndex = 8;
+            button8.UseVisualStyleBackColor = true;
+            button8.Click += button1_Click;
             // 
             // button9
             // 
-            this.button9.Location = new System.Drawing.Point(294, 282);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(124, 120);
-            this.button9.TabIndex = 9;
-            this.button9.UseVisualStyleBackColor = true;
+            button9.Location = new Point(229, 223);
+            button9.Margin = new Padding(2);
+            button9.Name = "button9";
+            button9.Size = new Size(96, 95);
+            button9.TabIndex = 9;
+            button9.UseVisualStyleBackColor = true;
+            button9.Click += button1_Click;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft JhengHei UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(477, 30);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(137, 50);
-            this.label1.TabIndex = 10;
-            this.label1.Text = "Player";
+            label1.AutoSize = true;
+            label1.Font = new Font("Microsoft JhengHei UI", 24F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.Location = new Point(371, 24);
+            label1.Margin = new Padding(2, 0, 2, 0);
+            label1.Name = "label1";
+            label1.Size = new Size(110, 41);
+            label1.TabIndex = 10;
+            label1.Text = "Player";
+            label1.Click += label1_Click_1;
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.label2.Font = new System.Drawing.Font("Microsoft JhengHei UI", 64F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.label2.Location = new System.Drawing.Point(477, 94);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(128, 135);
-            this.label2.TabIndex = 11;
-            this.label2.Text = "X";
+            label2.AutoSize = true;
+            label2.Cursor = Cursors.IBeam;
+            label2.Font = new Font("Microsoft JhengHei UI", 64F, FontStyle.Bold, GraphicsUnit.Point);
+            label2.ForeColor = SystemColors.MenuHighlight;
+            label2.Location = new Point(371, 74);
+            label2.Margin = new Padding(2, 0, 2, 0);
+            label2.Name = "label2";
+            label2.Size = new Size(104, 109);
+            label2.TabIndex = 11;
+            label2.Text = "X";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(662, 429);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.button9);
-            this.Controls.Add(this.button8);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Name = "Form1";
-            this.Text = "Tic-Tac-Toe Game, by S1125566";
-            this.Load += new System.EventHandler(this.Form1_Load_1);
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(515, 339);
+            Controls.Add(label2);
+            Controls.Add(label1);
+            Controls.Add(button9);
+            Controls.Add(button8);
+            Controls.Add(button7);
+            Controls.Add(button6);
+            Controls.Add(button5);
+            Controls.Add(button4);
+            Controls.Add(button3);
+            Controls.Add(button2);
+            Controls.Add(button1);
+            Margin = new Padding(2);
+            Name = "Form1";
+            Text = "Tic-Tac-Toe Game, by S1125566";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
